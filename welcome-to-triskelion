@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Triskelion Homestay, Dapoli – Booking Details & House Info</title>
+<style>
+:root{--bg:#f2f5ef;--surface:#fff;--ink:#1b2a21;--muted:#55645a;--accent:#1f4d36;--gold:#b97d0a;--line:#d5ddd1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141c17;--surface:#1c2721;--ink:#e8eee9;--muted:#a3b2a8;--accent:#7fc29a;--gold:#e0a63a;--line:#2c3a32;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141c17;--surface:#1c2721;--ink:#e8eee9;--muted:#a3b2a8;--accent:#7fc29a;--gold:#e0a63a;--line:#2c3a32;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:28px 18px 48px}
+h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:700;line-height:1.2}
+h1{font-size:2.3rem;margin:0 0 .3rem;color:var(--accent)}
+h2{font-size:1.35rem;margin:0 0 .6rem}
+.tag{color:var(--muted);margin:0 0 1.6rem}
+section{background:var(--surface);border-left:4px solid var(--accent);border-radius:6px;padding:18px 20px;margin:0 0 16px}
+section.gold{border-left-color:var(--gold)}
+p{margin:.4rem 0}
+ul{margin:.4rem 0;padding-left:1.2rem}
+li{margin:.25rem 0}
+a{color:var(--accent);font-weight:600}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.rates{width:100%;border-collapse:collapse;margin:.5rem 0}
+.rates td{padding:8px 0;border-bottom:1px solid var(--line)}
+.rates td:last-child{text-align:right;font-weight:700;white-space:nowrap}
+.upi{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:.5rem}
+code{background:var(--bg);border:1px solid var(--line);padding:3px 8px;border-radius:4px;font-size:.95rem;overflow-wrap:anywhere}
+button{font:inherit;font-size:.9rem;background:var(--accent);color:var(--surface);border:0;border-radius:4px;padding:6px 12px;cursor:pointer}
+h3{font-size:1rem;margin:.9rem 0 .1rem;color:var(--gold)}
+.note{color:var(--muted);font-size:.95rem}
+footer{color:var(--muted);font-size:.9rem;margin-top:24px}
+</style>
+</head>
+<body>
+<main>
+<h1>Welcome to Triskelion</h1>
+<p class="tag">Booking details &amp; house info · Gimhavane, Dapoli</p>
+
+<p>Hello! We are delighted you’re considering a stay with us. To make sure Triskelion is the right fit for your trip, please review the details below. 🙏</p>
+
+<section>
+<h2>Context</h2>
+<p>This is our family home since 1960. We added 2 modern rooms to offer our guests a clean, pollution-free stay with green and pleasant surroundings.</p>
+<p>Please note this is a homestay, not a hotel. We run it alongside our regular jobs, so we appreciate your understanding of our house rules and of what to expect and what not to.</p>
+</section>
+
+<section>
+<h2>Location &amp; photos</h2>
+<p>We are in Gimhavane, Dapoli. The sea shores are roughly 7–8 km away, and we are just 1.5 km from the Dapoli ST stand.</p>
+<p><a href="https://www.google.com/maps/search/?api=1&amp;query=Triskelion+Homestay+Gimhavane+Dapoli" target="_blank" rel="noopener">Open in Google Maps (photos included)</a></p>
+</section>
+
+<section>
+<h2>Rooms &amp; tariff (direct booking)</h2>
+<p>2 identical rooms. Maximum occupancy: 4 guests per room.</p>
+<table class="rates">
+<tr><td>Weekday (base occupancy 2)</td><td>₹2,400</td></tr>
+<tr><td>Weekend (base occupancy 2)</td><td>₹2,600</td></tr>
+<tr><td>Extra guest, per person</td><td>₹500</td></tr>
+</table>
+<p class="note">For direct bookings, we will re-confirm availability once you finalise your dates.</p>
+</section>
+
+<section>
+<h2>Booking &amp; payments</h2>
+<ul>
+<li><b>Advance:</b> a 50% non-refundable deposit confirms your stay.</li>
+<li><b>Balance:</b> the remaining 50% is due before checkout.</li>
+<li><b>Online bookings:</b> rates on Booking.com and other sites apply at the time of booking. GST applies only on these online platforms.</li>
+</ul>
+<div class="upi"><span>UPI ID:</span><code id="upi">9819418210@icici</code><button type="button" id="copy">Copy</button></div>
+</section>
+
+<section>
+<h2>Timings</h2>
+<ul>
+<li><b>Check-in:</b> 12:00 PM &nbsp;|&nbsp; <b>Check-out:</b> 10:30 AM</li>
+<li><b>Breakfast:</b> 7:45 – 8:45 AM, complimentary. Menu is below. Tell us your preferred time in this window so we can serve it fresh and hot.</li>
+<li><b>Late check-out:</b> subject to availability. The first 2 hours are free; after that ₹200 per hour.</li>
+</ul>
+</section>
+
+<section>
+<h2>Facilities</h2>
+<p>Both rooms have an attached washroom, A/C, Smart TV (Netflix), Alexa, water heater and high-speed Wi-Fi.</p>
+</section>
+
+<section class="gold">
+<h2>Know before you go</h2>
+<ul>
+<li><b>Meals:</b> we do not provide lunch or dinner, but there are many excellent restaurants nearby. To help us manage waste, we kindly discourage bringing parcels back to the rooms. If you do, please ask us for extra bags to segregate the trash.</li>
+<li><b>Power backup:</b> an inverter runs one fan and one light per room. A/C and TV need the main grid. Power outages are common on Mondays and during the monsoon.</li>
+<li><b>Drivers:</b> we do not have separate accommodation for drivers.</li>
+<li><b>Smoking and alcohol:</b> smoking is strictly prohibited on the premises. You are welcome to enjoy drinks privately in your room, provided it does not disturb other guests.</li>
+</ul>
+</section>
+
+<section>
+<h2>How to find us</h2>
+<p>Coming from Dapoli ST stand: pass Patwardhan Hospital (on your right), then look for Madhu Milind Pharma (on your left). Take the immediate next left. We are less than 25 metres in. Look for the lamps on our gate and a long open corridor in front of the gate, with our house on the right and the 2 rooms on your left.</p>
+</section>
+
+<section>
+<h2>Breakfast menu</h2>
+<p>We can serve one of these dishes, plus tea, coffee or milk.</p>
+<h3>Regional / seasonal</h3>
+<p>Ghavan with chatani · Dadape pohe · Bhajani thalipeeth · Phanasache sandan</p>
+<h3>Popular Indian breakfast</h3>
+<p>Aloo paratha with dahi · Poori bhaji · Misal pav · Vegetable sandwich</p>
+<h3>Light &amp; everyday favourites</h3>
+<p>Kanda pohe · Batata pohe · Upma · Sajuk toopatala sheera · Sabudana khichdi</p>
+<h3>South Indian</h3>
+<p>Idli sambar · Medu wada sambar</p>
+<h3>English breakfast</h3>
+<p>Bread and butter · Toast and jam · Bread omelette · Cornflakes with milk · Fruits</p>
+<p class="note">Breakfast is complimentary and we may not always match your preference, but please tell us what you would like on D-1. If we don’t hear from you, we will pick one of the light/everyday options.</p>
+</section>
+
+<footer>Let us know if you’d like to proceed with a booking or have any other questions.</footer>
+</main>
+<script>
+document.getElementById('copy').addEventListener('click',function(){
+var b=this,t=document.getElementById('upi').textContent;
+try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied'})}catch(e){}
+setTimeout(function(){b.textContent='Copy'},1800);
+});
+</script>
+</body>
+</html>
